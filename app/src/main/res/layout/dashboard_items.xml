@@ -1,0 +1,43 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toBottomOf="@+id/guide40Horizonatal"
+    android:padding="8dp"
+    android:layout_margin="8dp"
+    app:cardBackgroundColor="#DCE1DC"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    android:id="@+id/dashboardCard"
+    tools:ignore="MissingConstraints">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/categoryImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/_dimen_30_dp"
+            android:src="@drawable/smartphone"
+            android:textColor="#191A20"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/txtCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:maxLength="15"
+            android:maxLines="1"
+            android:textColor="@color/loginHeaderColor"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            tools:text="Category" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

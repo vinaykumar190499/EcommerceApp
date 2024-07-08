@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">ProjectOneEcommerce</string>
+    <string name="font_sans_serif">sans-serif</string>
+    <string name="login">Login</string>
+    <string name="emailTag">Email</string>
+    <string name="passTag">Password</string>
+    <string name="forgotPassTag">FORGOT PASSWORD ?</string>
+    <string name="loginText">Login</string>
+    <string name="dontHaveAccountTag">I DON\'T HAVE AN ACCOUNT</string>
+    <string name="loginErrMsg">Enter a valid Email and PassWord</string>
+    <string name="Register">REGISTER</string>
+    <string name="fullNameTag">Full Name</string>
+    <string name="mobileNoTag">Mobile No.</string>
+    <string name="emailIdTag">Email id</string>
+    <string name="registerButton">REGISTER</string>
+    <string name="haveAccountTag">I HAVE AN ACCOUNT</string>
+    <string name="registrationErrMsg">Please Verify your details Entered!!!!</string>
+    <string name="details">Details</string>
+    <string name="addToCart">ADD TO CART</string>
+    <string name="specifications">Specifications</string>
+    <string name="modelName">Model Name\n</string>
+    <string name="colorTag">Color</string>
+    <string name="ramTag">RAM</string>
+    <string name="internalStorageTag">Internal Storage</string>
+    <string name="processorTag">Processor</string>
+    <string name="primaryCameraTag">Primary Camera</string>
+    <string name="frontCameraTag">Front Camera</string>
+    <string name="DisplayTag">Display</string>
+    <string name="operationSystemTag">Operation System</string>
+    <string name="UserReviewTag">User Review</string>
+    <string name="goToCart">Go To Cart</string>
+</resources>

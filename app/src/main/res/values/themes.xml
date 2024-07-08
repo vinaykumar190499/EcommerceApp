@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ProjectOneEcommerce" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.ProjectOneEcommerce" parent="Base.Theme.ProjectOneEcommerce" />
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#555C5B</item>
+        <item name="colorControlActivated">#E38150</item>
+    </style>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="loginHeaderBlue">#4D9FE1</color>
+    <color name="loginHeaderWhite">#E2E8E7</color>
+    <color name="errColor">#9C221A</color>
+</resources>

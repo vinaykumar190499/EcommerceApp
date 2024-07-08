@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="loginHeaderColor">#306E9F</color>
+    <color name="loginHeaderWhite">#E2E8E7</color>
+    <color name="emailTagColor">#397CB1</color>
+    <color name="errColor">#9C221A</color>
+    <color name="errorMsgRed">#F1EFEE</color>
+    <color name="snackbarActionBlue">#5167DF</color>
+    <color name="snackbarColor">#B8BBBD</color>
+    <color name="liteOrange">#FB864B</color>
+</resources>
