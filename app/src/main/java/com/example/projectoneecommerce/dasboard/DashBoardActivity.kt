@@ -2,6 +2,7 @@ package com.example.projectoneecommerce.dasboard
 
 import android.content.Intent
 import android.os.Bundle
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.projectoneecommerce.NavigateToCategoryActivity
@@ -30,9 +31,25 @@ class DashBoardActivity : AppCompatActivity() {
                 startActivity(sintent)
             }
             btnLogout.setOnClickListener{
-                SecuredSharedPreferenceManager.clearAllPref()
-                startActivity(Intent(this@DashBoardActivity, LoginActivity::class.java))
-                finish()
+
+                val builder = AlertDialog.Builder(this@DashBoardActivity)
+                builder.apply {
+                    setTitle("Logout")
+                    setMessage("Are you sure to logout?")
+                    setPositiveButton("Okay") { _, _ ->
+                        SecuredSharedPreferenceManager.clearAllPref()
+                        startActivity(Intent(this@DashBoardActivity, LoginActivity::class.java))
+                        finish()
+                    }
+                    setNegativeButton("Cancel") { dialog, _ ->
+                        dialog.dismiss()
+                    }
+                }
+
+                val alertDialog: AlertDialog = builder.create()
+                alertDialog.setCancelable(false)
+                alertDialog.show()
+
             }
         }
     }

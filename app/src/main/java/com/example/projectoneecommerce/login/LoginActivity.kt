@@ -46,6 +46,8 @@ class LoginActivity : AppCompatActivity() {
                     )) // Change the action button text color to blue
                     snackbar.setAction("OK") {
                         // This will dismiss the Snackbar when clicked
+                        edtEmail.text?.clear()
+                        edtPass.text?.clear()
                     }
                     snackbar.show()
                 }
